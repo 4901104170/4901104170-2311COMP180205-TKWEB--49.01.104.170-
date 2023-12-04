@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIÊN HỆ</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css.css">
+    <script src="js.js"></script>
+</head>
+<style>
+    .card{
+        background-color: rgb(201, 169, 249);
+    }
+     body{
+          
+          background-image: url(https://images.squarespace-cdn.com/content/v1/55538df8e4b03a7d71afd9ce/1604625387327-T6OJX1GZ6VAUIVUTCXH6/Halloween_nickjr.gif);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+     
+ 
+    .card {
+         margin-top: 100px;
+         /* opacity: 0.85; */
+    } 
+
+</style>
+<body>
+    <audio autoplay>
+        <source src="./Am-thanh-ma-quai-theremin-www_tiengdong_com.mp3">
+    </audio>
+    
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <ul> 
+              <a class="navbar-brand" href="./index.html">TRANG CHỦ</a>
+            <a class="navbar-brand" href="./index (2).html">LỊCH SỬ</a>
+            <a class="navbar-brand" href="./index (3).html">SẢN PHẨM</a>
+            <a class="navbar-brand" href="./index (4).html">BỘ SƯU TẬP</a>
+            <a class="navbar-brand" href="./index (5).html">LIÊN HỆ</a>
+            <a class="navbar-brand" href="./index (6).html">ĐĂNG KÍ</a></ul>
+          </div>
+        </nav>
+
+        <div id="content">
+            <center>
+                <div class="card" style="width: 600px; height:300px">
+                    <div class="card-body">
+                      <h5 class="card-title">Contact Me</h5>
+                        <div class="row">
+                             <div class="col">
+                                <input type="text" class="form-control name" id="name" placeholder="Your Name">
+                             </div>
+                        </div>
+
+                        <div class="row mt-3">
+                            <div class="col">
+                                <input type="email" class="form-control info" name="" id="gmail" placeholder="abc@gmail.com">
+                            </div>
+                        </div>
+
+                        <div class="row mt-3">
+                            <div class="col">
+                                <input type="text" class="form-control" name="" id="phone" placeholder="0349786xxx">
+                            </div>
+                        </div>
+                        <br>
+                <button type="button" class="btn btn-warning" onclick="lienhe();">SEND</button>
+                      
+                    </div>
+                  </div>
+            </center>
+            </div>
+            
+       </div>
+
+</body>
+</html>

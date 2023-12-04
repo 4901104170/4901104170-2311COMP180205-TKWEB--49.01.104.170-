@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+.container-fluid {
+    font-size:100% ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family:'Times New Roman', Times, serif;
+  }
+  /* @font-face {
+    font-family: abc;
+    src: url(font/Buffied-GlqZ.ttf);
+} */
+
+
+   .header h4{
+    text-align:center;
+   }
+ .header{
+    color: aliceblue;
+    font-size: 60px;
+    text-shadow: 2px 2px 5px red;
+ 
+ }
+ 
+ 
+  .video{
+       text-align: center;
+    }
+.title{
+    text-align:center;
+    font-weight: 500;
+    font-size: 100px;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+
+}
+.phùthủy{
+   animation-name: PHUTHUY;
+   animation-duration: 6s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   animation-play-state: running;
+}
+
+
+
+@keyframes PHUTHUY{
+    0% {right:1100px;top:auto;}
+    20%{ right:80%;top:auto;}
+    40%{right:60%;top:auto;}
+    50%{right:50%;top:auto;}
+    60%{right:20%;top:auto;}
+    80%{right:10%;top:auto;}
+    100%{right:100%;top:auto;transform:scaleX(-1.7);}
+}
